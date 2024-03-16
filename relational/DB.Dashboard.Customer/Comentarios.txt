@@ -1,0 +1,21 @@
+Power Bi:
+
+- Realizar la conexión directa a la base de Datos Sakila. Hablar de la lentitud.
+- Crear vista y conectar con Power BI.
+- Cambiar el nombre de los campos
+- Pie Char: activo Vs Inactivo. Agregar label, quitar títulos.
+- ¿Qué falencias tiene la vista para realizar algunos reportes?
+	- No se pueden realizar series de tiempo. Porque la vista no incluye fechas.
+Cards: ciudad, pais, clientes activos, total gastado, total comprado.
+
+Análisis top/botton:
+- ¿Mail o apellido? -> necesidad de etl si por ejemplo quiero saber el dominio de nuestros clientes.
+
+Distribucipon y frecuencia.
+-> costo por cantida de cliente
+-> costo por población. 
+-> Se puede integrar con datos sobre el continente.
+-> No se puede hacer un análisis sobre categorías de las películas
+-> No se puede analizar la afinidad de los consumidores por sexo.
+¿Qué otros datos están en la base de datos Sakila?
+-> hablar de relevamientos en los trabajos y las estimaciones.
