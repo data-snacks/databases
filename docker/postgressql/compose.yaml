@@ -8,6 +8,7 @@ services:
       - 15432:5432
     volumes:
       - pg-data:/var/lib/postgresql/data/
+      - ./tempfiles:/tempfiles/
  
   pgadmin:
     image: 'docker.io/dpage/pgadmin4:latest'
