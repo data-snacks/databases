@@ -1,0 +1,21 @@
+version: '3.3'
+# Can't connect using a client
+services:
+  mssql:
+    container_name: sql-server
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    restart: always
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "${SQL_SA_PASSWORD}"
+    healthcheck:
+      test: ["CMD-SHELL", "[ -x /opt/mssql-tools/bin/sqlcmd ] && /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P ${SA_PASSWORD} -Q \"SELECT 1\" || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    volumes:
+      - sql-data:/var/opt/mssql
+
+volumes:
+  sql-data:
+    driver: local
