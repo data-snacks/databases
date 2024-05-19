@@ -1,19 +1,22 @@
-# Database Coockboook
+# Database Cookbook
 
-This repository serves as a knowledge base for various database practices. We will be adding a variety of scripts for both relational and non-relational databases.
+Welcome to the Dataase Cookbook repository! This repository serves as a knowledge base for various database practices, containing scripts for both relational and non'relational databases.
 
-This repository has informmation as a educative purpsoe, especially for the members of the SQL study group.
+# Purpose
 
-## What will you find here?
+The repository is designed for education purposes, especially for the member of the Data Snack study group. 
 
+## What will you find here
+
+1. Docker compose files to run the databases and some clients
 1. Database information
-1. Assignments or questions related to the database
+1. Assignments or questions related to database
 1. Resolutions to the questions asked
 
-## Do you want to change something
+## How to contribute
 
-1. Open an issue
-1. Fork the repository.
+1. Open an issue to suggest changes or report problems
+1. Fork the repository and make your changes
 1. Create a pull request to address the issue
 
-If you lack knowledge or have general concerns, you can reach us on Discord or LinkedIn.
+If you need assitansce or have general concerns, you can reach us on [Linkedin: Data Snacks](https://www.linkedin.com/company/101655893/).

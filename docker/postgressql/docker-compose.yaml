@@ -1,6 +1,6 @@
 services:
   docker_localhost:
-    container_name: db
+    container_name: postgresdb
     image: 'docker.io/postgres:latest'
     environment:
       POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
