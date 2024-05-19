@@ -1,5 +1,6 @@
 services:
   docker_localhost:
+    container_name: db
     image: 'docker.io/postgres:latest'
     environment:
       POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
@@ -11,6 +12,7 @@ services:
       - ./tempfiles:/tempfiles/
  
   pgadmin:
+    container_name: pgadmin
     image: 'docker.io/dpage/pgadmin4:latest'
     environment:
       PGADMIN_DEFAULT_EMAIL: "${PGADMIN_DEFAULT_EMAIL}"
